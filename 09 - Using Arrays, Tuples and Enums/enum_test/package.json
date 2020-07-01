@@ -1,0 +1,17 @@
+{
+  "name": "enum_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc-watch --onsuccess \"node dist/index.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Wagner Xu",
+  "license": "ISC",
+  "devDependencies": {
+    "tsc-watch": "^4.2.9",
+    "typescript": "^3.9.5"
+  }
+}
