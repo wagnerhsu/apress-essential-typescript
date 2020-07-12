@@ -1,0 +1,17 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc-watch --onsuccess \"node lib/index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsc-watch": "^4.2.9",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {},
+  "description": ""
+}
